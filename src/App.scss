@@ -1,0 +1,56 @@
+.App {
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    h1 {
+        align-self: center;
+        font-size:44px;
+        border-bottom:5px solid lightsalmon;
+        width:70%;
+    }
+    button.start{
+        border:4px solid lightsalmon;
+        border-radius:0px 12px 10px 12px;
+        background-color: lightsalmon;
+        font-size:16px;
+        color:whitesmoke;
+        font-weight: bolder;
+        width:30%;
+        align-self: center;
+    }
+    div.wrapper {
+        align-self: center;
+        width:50%;
+        .score{
+            text-align:left;
+            background-color:rgb(235, 250, 213);
+            font-size:16px;
+            font-weight: bolder;
+            border:4px solid rgb(235, 250, 213);
+            padding:4px;
+        }
+        p.loading{
+            font-size:16px;
+            font-style: italic;
+            font-weight: bolder;
+            width:100%;
+        }
+        button.next {
+            border:4px solid lightsalmon;
+            border-radius:15px;
+            background-color:white;
+            font-size:16px;
+            color:black;
+            font-weight: bolder;
+            padding:2px;
+            width:20%;
+            margin-top:20px;
+        }
+        .next:hover{
+            color:white;
+            background-color:lightsalmon;
+        }
+    }
+}
+  
